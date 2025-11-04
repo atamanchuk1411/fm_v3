@@ -1,0 +1,80 @@
+*{
+    margin: o;
+    padding: 0;
+}
+
+body{
+    background-color: #8dc63f;
+    font-family: "Arial";
+}
+
+h2{
+    background-color: #39930d;
+}
+
+footer{
+    background-color: #39930d;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 18px;
+}
+
+a{
+    font-size: 14px;
+    line-height: 2.1em;
+    text-transform: uppercase;
+}
+
+.main{
+    background-color: #ffffff;
+}
+
+h1, a, .football, .manager{
+    color: #39930d;
+}
+
+h2, .second_logo{
+    color: #ffffff;
+}
+
+.football{
+    font-size: 22px;
+}
+
+.manager{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.oficial_site{
+    font-size: 14px;
+    color: #5a5a5a;
+    font-style: italic;
+}
+
+.tel{
+    text-align: right;
+}
+
+.phone{
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.schedule{
+    font-size: 14px;
+    color: #5a5a5a;
+    font-style: italic;
+}
+
+.main_text{
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #343434;
+}
