@@ -77,6 +77,10 @@ h2, .second_logo{
     gap: 34px;
 }
 
+.schedule{
+    text-align: right;
+}
+
 .tittle{
     gap: 12px;
 }
