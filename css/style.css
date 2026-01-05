@@ -126,7 +126,7 @@ h2, .second_logo{
 .text{
     display: flex;
     flex-direction: row;
-    padding-left: 14rem;
+    padding: 0 14rem;
     gap: 38rem;
     margin-bottom: 29rem;
 }
@@ -137,7 +137,6 @@ h2, .second_logo{
 }
 
 .main_text{
-    min-width: 594rem;
     font-size: 14rem;
     line-height: 1.5em;
     color: #343434;
@@ -162,10 +161,18 @@ footer{
         font-size: 0.93px;;
     }
 
+    aside {
+        max-width: 300rem;
+    }
+
     .main_container{
         display: flex;
         flex-wrap: nowrap;
         column-gap: 20px;
+    }
+
+    .main_text{
+        max-width: 594rem;
     }
 }
 
