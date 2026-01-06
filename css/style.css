@@ -24,7 +24,6 @@ header{
 aside{
     width: 100%;
     min-width: 200rem;
-    margin-bottom: 20rem;
 }
 
 h2{
@@ -73,6 +72,11 @@ h2, .second_logo{
     display: flex;
     flex-direction: row;
     gap: 34rem;
+}
+
+.ball{
+    width: 100rem;
+    height: 100rem;
 }
 
 .tittle{
