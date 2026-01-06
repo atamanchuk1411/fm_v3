@@ -12,15 +12,6 @@ body{
     font-family: "Arial";
 }
 
-main img{
-    max-width: 100%;
-    min-height: 200px;
-    object-fit: cover;
-    object-position: 80%;
-    display: block;
-    margin: 0 auto;
-}
-
 header{
     display: flex;
     flex-direction: row;
@@ -84,10 +75,6 @@ h2, .second_logo{
     gap: 34rem;
 }
 
-.schedule{
-    text-align: right;
-}
-
 .tittle{
     gap: 12rem;
 }
@@ -123,6 +110,15 @@ h2, .second_logo{
     margin-bottom: 25rem;
 }
 
+.pitch{
+    max-width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    object-position: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
 .text{
     display: flex;
     flex-direction: row;
@@ -154,6 +150,16 @@ footer{
     .contacts {
         text-align: right;
     }
+
+    .schedule{
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .schedule{
+        text-align: right;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -169,6 +175,11 @@ footer{
         display: flex;
         flex-wrap: nowrap;
         column-gap: 20px;
+    }
+
+    .pitch{
+        width: 100%;
+        height: 100%;
     }
 
     .main_text{
