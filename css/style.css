@@ -34,7 +34,8 @@ h2{
 
 footer{
     background-color: #39930d;
-    padding: 14rem 15rem;
+    padding: 15rem;
+    margin: 0 -15rem;
 }
 
 h1{
@@ -58,6 +59,7 @@ ul{
     background-color: #ffffff;
     max-width: 960rem;
     margin: 0 auto;
+    padding: 0 15rem;
 }
 
 h1, a, .football, .manager{
