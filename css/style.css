@@ -71,8 +71,10 @@ h2, .second_logo{
 }
 
 .logo{
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 34rem;
 }
 
@@ -181,6 +183,10 @@ footer{
         display: flex;
         flex-wrap: nowrap;
         column-gap: 20px;
+    }
+
+    .logo{
+        width: auto;
     }
 
     .pitch{
